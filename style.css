@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  padding: 20px;
+  font-size: 20px;
+}
+.random-color-generator-container {
+  display: flex;
+  gap: 10px;
+}
+.hexcontainer,
+.rbgcontainer {
+  min-height: 100vh;
+  flex: 1;
+  display: flex;
+}
+.hexcontainer button {
+  padding: 12px 20px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #ffffff;
+  color: #dfc3c3;
+  border-radius: 10px;
+  border-style: none;
+}
+#hexcopy {
+  color: black;
+}
+
+.hexcontainer {
+  background-color: #dfc3c3;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.hexvalue {
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.rbgcontainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: rgb(255, 99, 71);
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.rbgcontainer button {
+  padding: 12px 20px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: rgb(255, 255, 255);
+  color: rgb(255, 99, 71);
+  border-radius: 10px;
+  border-style: none;
+}
+.rgbvalue {
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+}
+#rbgcopy {
+  color: black;
+}
